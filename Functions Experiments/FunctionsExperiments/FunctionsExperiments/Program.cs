@@ -10,13 +10,10 @@ namespace FunctionsExperiments
     {
         static void Main(string[] args)
         {
-            MultiplyLetters myWord = new MultiplyLetters();
+            ArrayManipulation firstArray = new ArrayManipulation();
 
-            string eManip = myWord.LetterMultiple("hello world!", 'e', 5);
-            Console.WriteLine($"hello world with manipulated multiple of e is : {eManip}");
-
-            string oManip = myWord.LetterMultiple("hello world!", 'o', 3);
-            Console.WriteLine($"hello world with manipulated multiple of o is: {oManip}");
+            int[] myMinNMax = firstArray.GetMinAndMaxOfArray(new int[] { 23, 12, 7, 34, 2, 64 });
+            Console.WriteLine($"The values entered have a min value of {myMinNMax[0]} and a max of: {myMinNMax[1]}");
         }
     }
 }
