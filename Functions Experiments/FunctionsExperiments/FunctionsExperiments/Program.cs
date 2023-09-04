@@ -10,10 +10,18 @@ namespace FunctionsExperiments
     {
         static void Main(string[] args)
         {
-            ArrayManipulation firstArray = new ArrayManipulation();
+            PalindromeChecker cat = new PalindromeChecker();
+            PalindromeChecker abba = new PalindromeChecker();
+            PalindromeChecker racecar = new PalindromeChecker();
 
-            int[] myMinNMax = firstArray.GetMinAndMaxOfArray(new int[] { 23, 12, 7, 34, 2, 64 });
-            Console.WriteLine($"The values entered have a min value of {myMinNMax[0]} and a max of: {myMinNMax[1]}");
+            bool resultCat = cat.IsPalindrome("Cat");
+            Console.WriteLine(resultCat);
+
+            bool resultAbba = abba.IsPalindrome("abba");
+            Console.WriteLine(resultAbba);
+
+            bool resultRaceCar = racecar.IsPalindrome("RaceCar");
+            Console.WriteLine(resultRaceCar);
         }
     }
 }
