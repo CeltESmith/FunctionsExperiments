@@ -10,18 +10,10 @@ namespace FunctionsExperiments
     {
         static void Main(string[] args)
         {
-            PalindromeChecker cat = new PalindromeChecker();
-            PalindromeChecker abba = new PalindromeChecker();
-            PalindromeChecker racecar = new PalindromeChecker();
+            IterationCalculator sentence1 = new IterationCalculator();
 
-            bool resultCat = cat.IsPalindrome("Cat");
-            Console.WriteLine(resultCat);
-
-            bool resultAbba = abba.IsPalindrome("abba");
-            Console.WriteLine(resultAbba);
-
-            bool resultRaceCar = racecar.IsPalindrome("RaceCar");
-            Console.WriteLine(resultRaceCar);
+            int apperanceOfA = sentence1.NumberOfOccurances("A new day and watery day.", 'a');
+            Console.WriteLine($"There are a total of {apperanceOfA} a's");
         }
     }
 }
