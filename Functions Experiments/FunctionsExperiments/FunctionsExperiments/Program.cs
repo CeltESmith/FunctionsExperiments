@@ -10,14 +10,13 @@ namespace FunctionsExperiments
     {
         static void Main(string[] args)
         {
-            StringManipulations world= new StringManipulations();
-            StringManipulations dev = new StringManipulations();
+            MultiplyLetters myWord = new MultiplyLetters();
 
-            string revWorld=world.ReverseWord("Hello World!");
-            string revDev=dev.ReverseWord("Developer");
+            string eManip = myWord.LetterMultiple("hello world!", 'e', 5);
+            Console.WriteLine($"hello world with manipulated multiple of e is : {eManip}");
 
-            Console.WriteLine($"This is Hello World! back wards:    {revWorld}");
-            Console.WriteLine($"This is Developer back words:      {revDev}");
+            string oManip = myWord.LetterMultiple("hello world!", 'o', 3);
+            Console.WriteLine($"hello world with manipulated multiple of o is: {oManip}");
         }
     }
 }
