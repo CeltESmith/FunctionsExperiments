@@ -10,10 +10,11 @@ namespace FunctionsExperiments
     {
         static void Main(string[] args)
         {
-            IterationCalculator sentence1 = new IterationCalculator();
+            Calculator firstArray = new Calculator();
 
-            int apperanceOfA = sentence1.NumberOfOccurances("A new day and watery day.", 'a');
-            Console.WriteLine($"There are a total of {apperanceOfA} a's");
+            decimal mean = firstArray.CalculateMean(new decimal[] { 10.0m, 5.0m, 25.0m });
+
+            Console.WriteLine($"The mean value of the given array is: {mean}");
         }
     }
 }
