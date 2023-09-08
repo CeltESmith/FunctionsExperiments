@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDFunctionPractice.Tests", "TDDFunctionPractice.Tests\TDDFunctionPractice.Tests.csproj", "{3CB927D5-0708-4A3E-9DF8-385D4F0B211E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionsExperiments", "..\Functions Experiments\FunctionsExperiments\FunctionsExperiments\FunctionsExperiments.csproj", "{917C6F76-8A98-4697-B336-6B1C27BB6441}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CB927D5-0708-4A3E-9DF8-385D4F0B211E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB927D5-0708-4A3E-9DF8-385D4F0B211E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB927D5-0708-4A3E-9DF8-385D4F0B211E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB927D5-0708-4A3E-9DF8-385D4F0B211E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{917C6F76-8A98-4697-B336-6B1C27BB6441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917C6F76-8A98-4697-B336-6B1C27BB6441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917C6F76-8A98-4697-B336-6B1C27BB6441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917C6F76-8A98-4697-B336-6B1C27BB6441}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F058F216-51EE-42F0-8392-D184D31D1546}
+	EndGlobalSection
+EndGlobal
