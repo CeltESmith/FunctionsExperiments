@@ -10,11 +10,10 @@ namespace FunctionsExperiments
     {
         static void Main(string[] args)
         {
-            Calculator firstArray = new Calculator();
+            DaysCalculator age= new DaysCalculator();
 
-            decimal mean = firstArray.CalculateMean(new decimal[] { 10.0m, 5.0m, 25.0m });
-
-            Console.WriteLine($"The mean value of the given array is: {mean}");
+            decimal myAge = age.ConvertYearsToDays(33.5m);
+            Console.WriteLine($"My age in days is: {myAge}.");
         }
     }
 }
