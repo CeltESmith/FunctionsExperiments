@@ -21,5 +21,23 @@ namespace FunctionsExperiments
             return sumNum / totalValues;
         }
 
+        public decimal ArraySumOfAbsolute(decimal[] values)
+        {
+            decimal absoluteSum = 0;
+
+            foreach (var value in values)
+            {
+                if (value < 0)
+                {
+                    decimal num = value * -1;
+                    absoluteSum += num;
+                }
+                else
+                {
+                    absoluteSum += value;
+                }
+            }
+            return absoluteSum;
+        }
     }
 }

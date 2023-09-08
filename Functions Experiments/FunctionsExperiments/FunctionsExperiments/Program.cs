@@ -10,10 +10,10 @@ namespace FunctionsExperiments
     {
         static void Main(string[] args)
         {
-            DaysCalculator age= new DaysCalculator();
+            Calculator absoluteSum= new Calculator();
 
-            decimal myAge = age.ConvertYearsToDays(33.5m);
-            Console.WriteLine($"My age in days is: {myAge}.");
+            decimal solutionValue = absoluteSum.ArraySumOfAbsolute(new decimal[] { 3.0m, -5.0m, 6 });
+            Console.WriteLine($"The array has a sum of {solutionValue}");
         }
     }
 }
